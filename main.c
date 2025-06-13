@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 #define CONSUMER "BlinkLED"
-#define GPIO_PIN 22
+#define GPIO_PIN 27
 
 int main() {
     struct gpiod_chip* chip;
