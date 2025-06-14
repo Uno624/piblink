@@ -4,7 +4,7 @@
 
 1 sudo apt install libgpiod-dev \\ ติดตั้ง library เพื่อใช้ในการcompile c/c++
 
-2 gcc -o blink blink.c -lgpiod \\ gcc = compile c/c++ bilnk = nameoutput blink.c = target -lgpiod = สั่งให้ gcc ใช้ libgpiod (library)
+2 gcc -o blink main.c -lgpiod \\ gcc = compile c/c++ bilnk = nameoutput blink.c = target -lgpiod = สั่งให้ gcc ใช้ libgpiod (library)
 
 3 sudo ./blink \\ run file check
 
