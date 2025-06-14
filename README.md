@@ -1,4 +1,5 @@
 โค็ดแสดงสถานะว่าตัว Pi boot เข้า os debian เสร็จแล้ว
+
 คำส่งเมื่อ clone มาแล้ว
 1 sudo apt install libgpiod-dev \\ ติดตั้ง library เพื่อใช้ในการcompile c/c++
 2 gcc -o blink blink.c -lgpiod \\ gcc = compile c/c++ bilnk = nameoutput blink.c = target -lgpiod = สั่งให้ gcc ใช้ libgpiod (library)
