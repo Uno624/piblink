@@ -12,11 +12,11 @@
 
 1 sudo nano /etc/systemd/system/blink.service \\ สร้าง fill .service หรือ ย้ายไฟล์เอาก็ได้ sudo mv ./blink.service /etc/systemd/system/blink
 
+...bash
 [Uploading blink.service…]()[Unit]
 Description=Blink LED on boot using libgpiod
 After=network.target
 
-... bash
 [Service]
 ExecStart=/usr/local/bin/blink
 Restart=on-failure
