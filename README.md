@@ -22,3 +22,4 @@
 
 6 sudo reboot \\ reboot เครือง
 
+![20250614_123722-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/fd283849-7813-419b-abf8-d263f9d3591c)
