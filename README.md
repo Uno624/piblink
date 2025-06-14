@@ -10,7 +10,7 @@
 
 วิธีให้ os run file เมื่อ boot เสร็จ
 
-1 sudo nano /etc/systemd/system/blink.service \\ สร้าง fill .service กำหนดตำแหน่ง หรือ clone เอา
+1 sudo nano /etc/systemd/system/blink.service \\ สร้าง fill .service หรือ ย้ายไฟล์เอาก็ได้ sudo mv ./blink.service /etc/systemd/system/blink
 
 2 sudo systemctl daemon-reload \\ ให้ systemd โหลด unit files ใหม่ทั้งหมด
 
