@@ -1,0 +1,11 @@
+[Unit]
+Description=Blink LED on boot using libgpiod
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/blink
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
