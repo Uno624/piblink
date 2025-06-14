@@ -16,7 +16,7 @@
 Description=Blink LED on boot using libgpiod
 After=network.target
 
-...
+... bash
 [Service]
 ExecStart=/usr/local/bin/blink
 Restart=on-failure
