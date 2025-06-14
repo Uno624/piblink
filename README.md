@@ -12,6 +12,20 @@
 
 1 sudo nano /etc/systemd/system/blink.service \\ สร้าง fill .service หรือ ย้ายไฟล์เอาก็ได้ sudo mv ./blink.service /etc/systemd/system/blink
 
+[Uploading blink[Unit]
+Description=Blink LED on boot using libgpiod
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/blink
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
+.service…]()
+
+
 2 sudo systemctl daemon-reload \\ ให้ systemd โหลด unit files ใหม่ทั้งหมด
 
 3 sudo systemctl enable blink.service  \\ คำสั่งให้เริ่มrunอัตโนมัติเมื่อบูตเครื่อง
